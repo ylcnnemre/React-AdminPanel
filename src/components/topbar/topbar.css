@@ -50,3 +50,9 @@
     border-radius: 50%;
     cursor: pointer;
 }
+
+.settingMenu{
+    position: absolute;
+    left: 0;
+    list-style-type: none;
+}

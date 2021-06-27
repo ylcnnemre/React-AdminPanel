@@ -17,9 +17,10 @@ function Topbar() {
                                 <Language />
                                 <span className="topIconBadge">2</span>
                         </div>
-                        <div className="topbarIconContainer">
+                        <div className="topbarIconContainer" >
                                 <Settings/>
-                             
+                      
+                            
                         </div>
                         <img src="https://pbs.twimg.com/profile_images/491469373480390656/Wz18s25S_400x400.jpeg" className="topAvatar" alt="" />
                 </div>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        const powerset=(array)=>{
+        const results=[[]]
+        let copy=""
+        for(const value of array)
+        {
+             copy=[...results]
+            
+            for(const prefix of copy)
+            {   
+                results.push(prefix.concat(value))
+            }
+        }
+        console.log(copy)
+        return results
+    }
+
+/* console.log(powerset(["A","B","C"]) */
+      let val= powerset([6,9,7])
+      console.log(val)
+    </script>
+</body>
+</html>
